@@ -67,7 +67,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  z-index: -2;
+  z-index: 0;
 }
 
 .overlay {
@@ -143,7 +143,6 @@
   background-position: center;
   background-size: cover;
   z-index: 1;
-  height: 100%;
 }
 
 .lots_card-list-item {
@@ -190,7 +189,6 @@
   font-weight: normal;
   text-decoration: underline;
   margin-top: 30px;
-  height: 25px;
 }
 
 .lots {
@@ -248,11 +246,6 @@
   align-items: end;
 }
 
-.footer {
-  margin-top: 180px;
-  padding: 0px 50px 82px;
-}
-
 .description {
   display: flex;
   justify-content: space-between;
@@ -291,9 +284,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  margin-top: 180px;
   padding: 0px 50px 82px;
   align-items: center;
-  width: auto;
 }
 
 .adress-footer {
@@ -305,7 +298,6 @@
   justify-content: center;
   align-self: start;
   font-size: 18px;
-  width: auto;
   font-weight: normal;
 }
 
